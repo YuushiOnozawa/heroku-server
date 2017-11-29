@@ -1,0 +1,26 @@
+{
+  "name": "heroku-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuushiOnozawa/heroku-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuushiOnozawa/heroku-server/issues"
+  },
+  "homepage": "https://github.com/YuushiOnozawa/heroku-server#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
