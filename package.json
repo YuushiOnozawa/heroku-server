@@ -18,9 +18,9 @@
     "url": "https://github.com/YuushiOnozawa/heroku-server/issues"
   },
   "homepage": "https://github.com/YuushiOnozawa/heroku-server#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cli": "^1.4.0",
-    "gulp-webserver": "^0.9.1"
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.16.2",
+    "serve-static": "^1.13.1"
   }
 }
