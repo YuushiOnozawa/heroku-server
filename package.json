@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +18,18 @@
     "url": "https://github.com/YuushiOnozawa/heroku-server/issues"
   },
   "homepage": "https://github.com/YuushiOnozawa/heroku-server#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.8.1"
+  },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "express": "^4.16.2",
     "serve-static": "^1.13.1"
   }
